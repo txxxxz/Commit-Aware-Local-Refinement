@@ -1,0 +1,5 @@
+# Optional: for --backend llada (LLaDA-8B)
+# Install: pip install -r requirements.txt -r requirements-llada.txt
+torch>=2.1.0
+transformers>=4.46.0
+accelerate>=0.20.0

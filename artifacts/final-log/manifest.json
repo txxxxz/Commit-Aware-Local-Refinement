@@ -1,0 +1,38 @@
+{
+  "source": "/Users/zhouchendi/Desktop/StartOribit/Diffusion/PF/final-log",
+  "policy": "Only summary.json files are archived. rawdata directories and *.log files are intentionally excluded.",
+  "summaries": [
+    {
+      "name": "scar_always_trigger_humaneval164_64_seed42",
+      "source": "scar_always_trigger_humaneval164_64_seed42/console.log",
+      "path": "artifacts/final-log/scar_always_trigger_humaneval164_64_seed42/summary.json"
+    },
+    {
+      "name": "scar_entropy_only_humaneval164_64_seed42",
+      "source": "scar_entropy_only_humaneval164_64_seed42/console.log",
+      "path": "artifacts/final-log/scar_entropy_only_humaneval164_64_seed42/summary.json"
+    },
+    {
+      "name": "scar_final_humaneval164_64_seed42",
+      "source": "scar_final_humaneval164_64_seed42/console.log",
+      "path": "artifacts/final-log/scar_final_humaneval164_64_seed42/summary.json"
+    },
+    {
+      "name": "scar_no_fallback_humaneval164_64_seed42",
+      "source": "scar_no_fallback_humaneval164_64_seed42/console.log",
+      "path": "artifacts/final-log/scar_no_fallback_humaneval164_64_seed42/summary.json"
+    }
+  ],
+  "skipped_without_summary": [
+    "baseline_postprocess_humaneval164_128_seed42",
+    "baseline_postprocess_humaneval164_128steps_64tok_seed42",
+    "baseline_postprocess_humaneval164_64_seed42",
+    "baseline_postprocess_humaneval164_64steps_128tok_seed42",
+    "baseline_postprocess_humaneval164_96_seed42",
+    "baseline_postprocess_humaneval164_96steps_64tok_seed42",
+    "pf_only_humaneval164_64_evalcompare_seed42",
+    "pf_only_humaneval164_64_evalcompare_seed42_gpu01",
+    "pf_rdd_humaneval164_64_evalcompare_seed42_gpu01",
+    "scar_final_humaneval164_64_evalcompare_seed42"
+  ]
+}
